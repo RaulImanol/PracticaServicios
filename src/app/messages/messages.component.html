@@ -2,6 +2,7 @@
   <h2>Mensajes</h2>
   <button class="clear"
           (click)="messageService.clear()">Limpiar Mensajes</button>
-<!--   BOTON PARA LIMPIAR MENSAJES -->  
+<!--   BOTON PARA LIMPIAR MENSAJES --> 
+ 
 <div *ngFor='let message of messageService.messages'> {{message}} </div>
 <!-- MENSAJES MOSTRADO PARA SU ELIMININACION --></div>
