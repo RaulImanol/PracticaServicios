@@ -16,6 +16,7 @@ export class HeroesComponent implements OnInit {
   selectedHero?: Hero;
   
 //SELECCION DE HEROE
+
   heroes: Hero[] = [];
 
   constructor(private heroService: HeroService, private messageService: MessageService) { }

@@ -14,6 +14,7 @@ export class MessagesComponent implements OnInit {
 
   ngOnInit() {
   }
+  
   //CONSTRUCTOR DEL SERVICIO DE MENSAJES
 
 }
